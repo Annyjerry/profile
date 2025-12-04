@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <nav class="navbar">
+        <div class="logo">ML.Engineer</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i data-lucide="menu"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in-up">Hi, I'm <span class="highlight">Anny Jerry</span></h1>
+            <p class="fade-in-up delay-1">Machine Learning Engineer & Data Scientist specializing in predictive modeling
+                and secure AI systems.</p>
+            <div class="cta-buttons fade-in-up delay-2">
+                <a href="#projects" class="btn primary">View Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in-right">
+            <div class="image-container">
+                <img src="assets/profile.jpg" alt="Anny Jerry" class="profile-img">
+                <div class="profile-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate Machine Learning Engineer with a knack for solving complex problems using data.
+                        With experience in building predictive models and secure AI applications, I bridge the gap
+                        between theoretical algorithms and real-world solutions.</p>
+                </div>
+                <div class="skills-container">
+                    <h3>Tech Stack</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">TensorFlow</div>
+                        <div class="skill-item">PyTorch</div>
+                        <div class="skill-item">Scikit-learn</div>
+                        <div class="skill-item">Streamlit</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">AWS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/hate-speech.png');"></div>
+                    <div class="project-info">
+                        <h3>Hate Speech Detection</h3>
+                        <p>A severity level classification system that identifies hate speech in text. Built to create
+                            safer online communities.</p>
+                        <div class="tags">
+                            <span>NLP</span><span>Classification</span><span>Streamlit</span>
+                        </div>
+                        <a href="https://hatespeech-classifier.streamlit.app/" target="_blank" class="project-link">View
+                            Project <i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/malaria.png');"></div>
+                    <div class="project-info">
+                        <h3>Malaria Outbreak Prediction</h3>
+                        <p>Predicts the likelihood of malaria outbreaks based on environmental factors to aid in early
+                            intervention.</p>
+                        <div class="tags">
+                            <span>ML</span><span>Healthcare</span><span>Streamlit</span>
+                        </div>
+                        <a href="https://malaria-outbreak-prediction-system.streamlit.app/" target="_blank"
+                            class="project-link">View Project <i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/link-checker.png');"></div>
+                    <div class="project-info">
+                        <h3>Malicious Link Checker</h3>
+                        <p>A robust tool to verify URLs and detect potential security threats, phishing attempts, and
+                            malicious content.</p>
+                        <div class="tags">
+                            <span>Cybersecurity</span><span>Automation</span><span>Streamlit</span>
+                        </div>
+                        <a href="https://linkchecker.streamlit.app/" target="_blank" class="project-link">View Project
+                            <i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Anny is a brilliant problem solver. His work on the Hate Speech Detection system demonstrated a
+                        deep understanding of NLP and security."</p>
+                    <div class="author">
+                        <div class="avatar">UE</div>
+                        <div class="author-info">
+                            <h4>Dr. Ubong Etuk</h4>
+                            <span>HOD Cyber Security, AKSU</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Transformed our data infrastructure and provided insights that led to a 20% increase in
+                        efficiency."</p>
+                    <div class="author">
+                        <div class="avatar">JS</div>
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <span>Product Manager, DataFlow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Great communicator and technical expert. The malaria prediction model was a game changer."</p>
+                    <div class="author">
+                        <div class="avatar">AL</div>
+                        <div class="author-info">
+                            <h4>Dr. Alice Lee</h4>
+                            <span>Research Lead, HealthAI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Interested in collaborating or have a question? Feel free to reach out!</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/annyjerry" target="_blank" aria-label="LinkedIn"><i
+                                data-lucide="linkedin"></i></a>
+                        <a href="https://github.com/Annyjerry" target="_blank" aria-label="GitHub"><i
+                                data-lucide="github"></i></a>
+                        <a href="https://x.com/AnnyJerr" target="_blank" aria-label="Twitter"><i
+                                data-lucide="twitter"></i></a>
+                        <a href="mailto:aniebietlawrence191@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ML Engineer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
