@@ -1,2 +1,2 @@
 # profile
-My portfoilio where you can easily access me for any collaboration and contract
+My portfolio where you can easily access me for any collaboration and contract
