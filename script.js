@@ -19,13 +19,24 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, observerOptions);
-document.querySelectorAll('.section-title, .project-card, .testimonial-card, .skill-item').forEach(el => {
+document.querySelectorAll('.section-title, .project-card, .skill-item').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
     observer.observe(el);
 });
-// Mobile Menu Toggle (Simple implementation)
+// Show More / Show Less projects toggle
+const toggleProjectsBtn = document.getElementById('toggleProjectsBtn');
+const projectsGrid = document.querySelector('.projects-grid');
+if (toggleProjectsBtn && projectsGrid) {
+    toggleProjectsBtn.addEventListener('click', () => {
+        const isExpanded = projectsGrid.classList.toggle('show-all');
+        toggleProjectsBtn.textContent = isExpanded ? 'Show Less' : 'Show More Projects';
+        if (!isExpanded) {
+            document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+}
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 if (menuToggle) {
