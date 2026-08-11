@@ -241,6 +241,7 @@ body {
 .about-text p {
     color: var(--text-muted);
     font-size: 1.02rem;
+    text-align: justify;
 }
 
 .skills-container h3 {
@@ -515,7 +516,7 @@ footer {
     .hero {
         flex-direction: column;
         justify-content: center;
-        text-align: center;
+        text-align: justify;
         padding-top: 100px;
         padding-bottom: 50px;
         height: auto;
