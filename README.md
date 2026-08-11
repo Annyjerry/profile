@@ -2,7 +2,7 @@
 
 Personal portfolio site showcasing my work as a computer scientist with experience in front-end and backend development and applied machine learning.
 
-🔗 Live site: https://profile-theta-self.vercel.app
+🔗 Live site: https://anny-jerry.vercel.app
 
 ## About
 This site is where I showcase my projects, skills, and background, and where people can reach me for collaboration, contract work, or opportunities.
