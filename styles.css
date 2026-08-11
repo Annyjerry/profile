@@ -293,6 +293,10 @@ body {
 .project-info h3 {
     margin-bottom: 0.5rem;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .project-info p {
@@ -328,6 +332,25 @@ body {
 .project-link:hover {
     gap: 0.8rem;
     color: var(--primary-color);
+}
+
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.fun-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    vertical-align: middle;
 }
 
 /* Testimonials */
@@ -471,7 +494,6 @@ footer {
     }
 }
 
-/* Responsive */
 /* Responsive */
 @media (max-width: 768px) {
     .navbar {
