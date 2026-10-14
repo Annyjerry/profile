@@ -472,8 +472,15 @@ footer {
 
 .footer-social-links a {
     display: inline-flex;
+    width: 1.25rem;
+    height: 1.25rem;
     color: var(--text-muted);
     transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-social-links svg {
+    width: 100%;
+    height: 100%;
 }
 
 .footer-social-links a:hover {
