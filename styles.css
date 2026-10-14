@@ -462,6 +462,25 @@ footer {
     border-top: 1px solid var(--border-color);
 }
 
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer-social-links a {
+    display: inline-flex;
+    color: var(--text-muted);
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-social-links a:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
 /* Animations */
 .fade-in-up {
     opacity: 0;
